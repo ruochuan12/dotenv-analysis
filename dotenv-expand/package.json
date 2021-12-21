@@ -1,0 +1,32 @@
+{
+  "name": "dotenv-expand",
+  "version": "5.1.0",
+  "description": "Expand environment variables using dotenv",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "lab test/* --coverage",
+    "posttest": "npm run lint",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/motdotla/dotenv-expand"
+  },
+  "bugs": {
+    "url": "https://github.com/motdotla/dotenv-expand/issues"
+  },
+  "author": "Scott Motte <mot@mot.la> (http://mot.la)",
+  "keywords": [
+    "dotenv",
+    "expand",
+    "variables"
+  ],
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "lab": "^13.0.1",
+    "should": "^11.2.1",
+    "standard": "^9.0.2"
+  },
+  "types": "./index.d.ts"
+}
